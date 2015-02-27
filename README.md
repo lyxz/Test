@@ -1,6 +1,6 @@
 
 导入项目时:<br>
-    1使用TortoiseGit(小乌龟)时,项目的url使用ssh类型的,比如本项目 git@github.com:lyxz/Test.git,并加载自己的putty秘钥,提交不用输账号密码. <br>
+    1使用TortoiseGit(小乌龟)时,项目的url使用ssh类型的,比如本项目 git@github.com:lyxz/Test.git,并加载自己的putty秘钥,提交不用输账号密码. 
     2IDE导入(这里以Eclipse为例,请自行装egit插件)<br>
         2.1 Url使用https开头的,比如本项目https://github.com/lyxz/Test.git<br>
         2.2 Eclipse里右键,Import选择Git文件夹下Projects from git 然后Next<br>
