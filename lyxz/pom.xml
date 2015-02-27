@@ -7,6 +7,33 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>lyxz Maven Webapp</name>
   <url>http://maven.apache.org</url>
+   <repositories>
+        <repository>
+            <id>maven-repo2</id>
+            <name>maven-repo2</name>
+            <layout>default</layout>
+             <url>http://repo2.maven.org/maven2/</url>  
+        </repository>
+        <repository>
+            <id>oschina Releases</id>
+            <name>oschina Releases</name>
+            <url>http://maven.oschina.net/content/groups/public</url>
+        </repository>
+    </repositories>
+    
+    <pluginRepositories>
+        <pluginRepository>
+            <id>maven2-repo</id>
+            <name>maven2 Repository</name>
+            <url>http://repo2.maven.org/maven2/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>oschina Releases</id>
+            <name>oschina Releases</name>
+            <url>http://maven.oschina.net/content/groups/public</url>
+        </pluginRepository>
+    </pluginRepositories>  
+    
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
