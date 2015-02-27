@@ -1,4 +1,4 @@
-这是分支<br><br><br>
+这是分支<br><br>
 导入项目时:<br>
     1使用TortoiseGit(小乌龟)时,项目的url使用ssh类型的,比如本项目 git@github.com:lyxz/Test.git,并加载自己的putty秘钥,提交不用输账号密码. <br>
     2IDE导入(这里以Eclipse为例,请自行装egit插件)<br>
